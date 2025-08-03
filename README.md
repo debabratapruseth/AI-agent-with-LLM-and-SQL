@@ -9,15 +9,15 @@ This project is built with beginners in mind and demonstrates how to integrate L
 
 This self-paced, educational project helps learners explore:
 
-How to use OpenAI’s GPT-4 to generate SQL queries
+- How to use OpenAI’s GPT-4 to generate SQL queries
 
-How to execute those queries on a real relational database (SQLite)
+- How to execute those queries on a real relational database (SQLite)
 
-How to validate SQL for safe execution (read-only)
+- How to validate SQL for safe execution (read-only)
 
-How to format and display results from database queries
+- How to format and display results from database queries
 
-How to build a working LLM-powered data agent from scratch
+- How to build a working LLM-powered data agent from scratch
 
 
 ---
@@ -46,34 +46,34 @@ The result is formatted and returned to the user — all within a single functio
 
 By completing this project, you will:
 
-Understand how natural language can be transformed into structured queries
+- Understand how natural language can be transformed into structured queries
 
-Learn the basics of database schemas and SELECT statements
+- Learn the basics of database schemas and SELECT statements
 
-Explore OpenAI API integration using Python and HTTP requests
+- Explore OpenAI API integration using Python and HTTP requests
 
-Practice safe SQL execution with validation logic
+- Practice safe SQL execution with validation logic
 
-Build their confidence in AI-assisted data tools
+- Build their confidence in AI-assisted data tools
 
-Understand the architecture of AI-powered enterprise dashboards
+- Understand the architecture of AI-powered enterprise dashboards
 
 ---
 
 
 # Technologies Used
 
-Component	Tool
+Component >> Tool:
 
-LLM	OpenAI GPT-4 (via API)
+- LLM	OpenAI >> GPT-4 (via API)
 
-Database	SQLite (can upgrade to PostgreSQL/MySQL)
+- Database >>	SQLite (can upgrade to PostgreSQL/MySQL)
 
-HTTP Requests	requests
+- HTTP Requests >>	requests
 
-Security	Read-only SQL validation
+- Security >>	Read-only SQL validation
 
-Deployment	Google Colab 
+- Deployment >>	Google Colab 
 
 ---
 
@@ -81,15 +81,15 @@ Deployment	Google Colab
 
 Current Limitations >>	Future Enhancements:
 
-Works only with SELECT statements >>	Add write/query mode switching
+- Works only with SELECT statements >>	Add write/query mode switching
 
-Uses SQLite (local file-based) >>	Add PostgreSQL/MySQL connector
+- Uses SQLite (local file-based) >>	Add PostgreSQL/MySQL connector
 
-Query is text-based only >> Add file upload or schema discovery
+- Query is text-based only >> Add file upload or schema discovery
 
-No login/authentication	>> Add RBAC + user access control
+- No login/authentication	>> Add RBAC + user access control
 
-Prompt is fixed	>> Add prompt templates for fine-tuning
+- Prompt is fixed	>> Add prompt templates for fine-tuning
 
 ---
 
@@ -98,11 +98,11 @@ Prompt is fixed	>> Add prompt templates for fine-tuning
 
 Once you’ve mastered this project, try:
 
-Building a full dashboard assistant with Streamlit
+- Building a full dashboard assistant with Streamlit
 
-Connecting to your organization’s real database
+- Connecting to your organization’s real database
 
-Using GPT-4 with query explanation or data summarization
+- Using GPT-4 with query explanation or data summarization
 
 
 ---
