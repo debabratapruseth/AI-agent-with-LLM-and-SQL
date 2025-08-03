@@ -24,20 +24,15 @@ This self-paced, educational project helps learners explore:
 
 
 # How It Works
-User Input
-Ask a question based on content stored in teh database.
+- User Input : Ask a question based on content stored in the database.
 
-LLM Translation
-GPT-4 receives the database schema + question and generates a SQL query.
+- LLM Translation : GPT-4 receives the database schema + question and generates a SQL query.
 
-Validation
-The query is scanned to block unsafe operations (DROP, DELETE, etc.).
+- Validation : The query is scanned to block unsafe operations (DROP, DELETE, etc.).
 
-Execution
-The SQL query runs on the database using SQLite.
+- Execution : The SQL query runs on the database using SQLite.
 
-Output
-The result is formatted and returned to the user — all within a single function.
+- Output : The result is formatted and returned to the user — all within a single function.
 
 ---
 
